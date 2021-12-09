@@ -100,11 +100,17 @@
 .text-center{
     text-align: center;
 }
+.text-end{
+    text-align: end;
+}
 .fs-1{
     font-size: 20px;
 }
 .fs-2{
     font-size: 40px;
+}
+.fw-bold{
+    font-weight: bold;
 }
 .text-white{
     color: white;
@@ -128,4 +134,8 @@
 // LIST & LINK
 .list-none{
     list-style: none;
+}
+// OUTLINE
+.outline-none{
+    outline: none;
 }
