@@ -1,5 +1,6 @@
 <template>
     <div class="section-one border">
+        <!-- TOP -->
         <div class="section-one-top border">
             <div class="container border d-flex justify-content-between">
                 <p><i class="far fa-map text-white"></i> <span class="text-white">International</span> International Shipping Service</p>
@@ -7,16 +8,21 @@
                 <p><i class="fas fa-check text-white"></i> We price match to give you the <span class="text-white">best deals</span></p>
             </div>
         </div>
+        <!-- CENTER -->
         <div class="section-one-center border d-flex align-items-center">
             <div class="container border text-white">
                 <span>FIND THE BEST ANIMAL SUPPLIES</span>
                 <h1 class="my-4">We knows animals are a part of your family, let us help take care of them.</h1>
                 <button class="btn pointer">Learn more about us</button>
             </div>
-
         </div>
+        <!-- BOTTOM -->
         <div class="section-one-bottom border">
-            <div class="container"></div>
+            <div class="container d-flex align-items-center border justify-content-center">
+                <img src="../assets/food-transparent-5-200x112.png" alt="">
+                <p class="text-white mx-2">Get $25 OFF your first purchase of our homemade pet food!</p>
+                <a @click.prevent href="/">Visit the shop</a>
+            </div>
         </div>
     </div>
 </template>
@@ -58,6 +64,10 @@ export default {
 .section-one-bottom{
     background-image: url('../assets/bg-transparent-3.png');
     background-color: $heavyMetal;
+    font-size: 30px;
+    a{
+        color: $naturalGrey;
+    }
 }
 
 </style>
