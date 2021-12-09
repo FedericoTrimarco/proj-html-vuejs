@@ -1,4 +1,5 @@
 <template>
+    <!-- SHOP -->
     <div class="section-three container border">
         <ul class="list-none d-flex border justify-content-between text-center">
             <li v-for="(el, id) in mainArray" :key="`image-${id}`">
