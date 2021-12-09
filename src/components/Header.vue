@@ -22,9 +22,10 @@
             </div>
 
         </div>
+        <!-- Navbar links -->
         <nav class="header-bottom container">
             <ul class="d-flex list-none border justify-content-center">
-                <li v-for="(link, id) in navLink" :key="id" class="me-3">
+                <li v-for="(link, id) in links" :key="id" class="me-3">
                     <a @click.prevent href="/" class="text-decoration-none fw-bold">{{ link }} <i class="fas fa-angle-down ms-1"></i></a>
                 </li>
             </ul>
@@ -35,10 +36,8 @@
 <script>
 export default {
     name: 'Header',
-    data() {
-        return{
-            navLink: ['Home', 'Shop', 'About', 'Blog', 'Contact', 'Shop by brand']
-        }
+    props:{
+        links: Array,
     }
 }
     
