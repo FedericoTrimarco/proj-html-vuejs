@@ -2,7 +2,7 @@
     <header class="border">
         <!-- header-top -->
         <div class="header-top ">
-            <div class="container border d-flex align-items-center justify-content-between py-2">
+            <div class="header-top-content container border d-flex align-items-center justify-content-between py-2">
                 <!-- logo -->
                 <div class="logo">
                     <img src="../assets/dark-pet-logo.png" alt="logo">
@@ -10,12 +10,12 @@
                 <!-- input -->
                 <div class="input">
                     <i class="fas fa-search me-1"></i>
-                    <input type="text" placeholder="search...">
+                    <input type="text" placeholder="search..." class="fs-1 outline-none">
                 </div>
                 <!-- Questions -->
-                <span><strong>Questions?</strong> Call us: 1.800.123.4567</span>
+                <span class="text-end"><strong>Questions?</strong> Call us: 1.800.123.4567</span>
                 <!-- icons -->
-                <div class="icons">
+                <div class="icons text-end">
                     <i class="fas fa-archive me-1"></i>
                     <i class="far fa-user"></i>
                 </div>
@@ -25,7 +25,7 @@
         <nav class="header-bottom container">
             <ul class="d-flex list-none border justify-content-center">
                 <li v-for="(link, id) in navLink" :key="id" class="me-3">
-                    <a @click.prevent href="/" class="text-decoration-none">{{ link }} <i class="fas fa-angle-down ms-1"></i></a>
+                    <a @click.prevent href="/" class="text-decoration-none fw-bold">{{ link }} <i class="fas fa-angle-down ms-1"></i></a>
                 </li>
             </ul>
         </nav>
@@ -49,17 +49,20 @@ export default {
 @import '@/Style/variables.scss';
     .header-top{
         border-bottom: 1px solid $lightGray;
+        .header-top-content{
+            div,span{
+                 width: calc(100% / 4);
+                 padding: 0 15px;
+            }
+        }
         .input{
             background: $lightGray;
-            padding: 15px;
             border-radius: 30px;
             color: $naturalGrey;
             input{
                 border: none;
                 background: transparent;
-                outline: none;
-                width: 500px;
-                font-size: 20px
+                padding: 15px;
             }
         }
     }
@@ -68,7 +71,6 @@ export default {
         li{
             a{
                 color: $naturalGrey;
-                font-weight: bold;
                 &:hover, &:focus{
                     color: #000;
                 }
