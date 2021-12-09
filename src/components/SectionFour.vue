@@ -30,13 +30,16 @@ export default {
         .card{
             width: calc(100% / 3);
             padding: 10px;
-
             .food{
                 background-color: $heavyMetal;
                 background-image:
                                     linear-gradient(rgba(0, 0, 0, 0) 20%, rgb(30, 48, 32) 80%), 
                                     url('../assets/bg-transparent-3.png')
                                 ;
+                transition: transform .5s;
+                &:hover{
+                    transform: scale(1.05)
+                }
                 h1{
                     font-family: 'Domine', serif;
                     letter-spacing: 3px;
