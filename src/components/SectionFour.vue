@@ -1,7 +1,7 @@
 <template>
     <!-- FOODS -->
-    <div class="section-four container d-flex">
-        <div v-for="(el, id) in arrayElements" :key="`food-${id}`" class="card text-center" >
+    <div class="section-four container d-flex border">
+        <div v-for="(el, id) in arrayElements" :key="`food-${id}`" class="border card text-center" >
             <div class="food py-6">
                 <h1 class="text-white">{{ el.title }}</h1>
                 <p class="mt-3 fw-bold">{{ el.description }}</p>

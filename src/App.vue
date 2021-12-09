@@ -6,7 +6,7 @@
       <SectionOne />
       <SectionTwo />
       <SectionThree :mainArray="images"/>
-      <SectionFour  :arrayElements="foods"/>
+      <SectionFour :arrayElements="foods"/>
     </main>
   </div>
 </template>
@@ -30,6 +30,7 @@ export default {
   data() {
     return{
       navLink: ['Home', 'Shop', 'About', 'Blog','Contact', 'Shop by brand'],
+
       images: [
         {
           src: '/product-8.jpg',

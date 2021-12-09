@@ -3,7 +3,7 @@
     <div class="section-three container border">
         <ul class="list-none d-flex border justify-content-between text-center">
             <li v-for="(el, id) in mainArray" :key="`image-${id}`">
-                <div class="card">
+                <div class="card border">
                     <img :src="require(`../assets${el.src}`)" class="w-100">
                     <h2 class="mt-3">{{el.title}}</h2>
                 </div>
