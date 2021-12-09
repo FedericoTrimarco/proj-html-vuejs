@@ -6,6 +6,7 @@
       <SectionOne />
       <SectionTwo />
       <SectionThree :mainArray="images"/>
+      <SectionFour  :arrayElements="foods"/>
     </main>
   </div>
 </template>
@@ -15,6 +16,7 @@ import Header from '@/components/Header.vue'
 import SectionOne from '@/components/SectionOne.vue'
 import SectionTwo from '@/components/SectionTwo.vue'
 import SectionThree from '@/components/SectionThree.vue'
+import SectionFour from '@/components/SectionFour.vue'
 
 export default {
   name: 'App',
@@ -23,28 +25,50 @@ export default {
     SectionOne,
     SectionTwo,
     SectionThree,
+    SectionFour,
   },
   data() {
     return{
       navLink: ['Home', 'Shop', 'About', 'Blog','Contact', 'Shop by brand'],
       images: [
-                {
-                    src: '/product-8.jpg',
-                    title: 'Bed(1)',
-                },
-                {
-                    src: '/product-3.jpg',
-                    title: 'Food(6)',
-                },
-                {
-                    src: '/product-2.jpg',
-                    title: 'Toys(6)',
-                },
-                {
-                    src: '/product-4.jpg',
-                    title: 'Transport(6)',
-                }
-            ]
+        {
+          src: '/product-8.jpg',
+          title: 'Bed(1)',
+        },
+        {
+          src: '/product-3.jpg',
+          title: 'Food(6)',
+        },
+        {
+          src: '/product-2.jpg',
+          title: 'Toys(6)',
+        },
+        {
+          src: '/product-4.jpg',
+          title: 'Transport(6)',
+        }
+      ],
+
+      foods: [
+        {
+          srcFood: '/food-transparent-18.png',
+          title: 'Kibble',
+          description: 'Dry dog food',
+          btnText: 'Shop dry food'
+        },
+        {
+          srcFood: '/food-transparent-17.png',
+          title: 'Moist',
+          description: 'Canned do food',
+          btnText: 'Shop moist food'
+        },
+        {
+          srcFood: '/food-transparent-16.png',
+          title: 'Frozen',
+          description: 'Freeze-Dried do food',
+          btnText: 'Shop frozen food'
+        }
+      ]
     }
   }
 }
