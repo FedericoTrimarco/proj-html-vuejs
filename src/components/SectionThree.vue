@@ -1,5 +1,5 @@
 <template>
-    <div class="container border">
+    <div class="section-three container border">
         <ul class="list-none d-flex border justify-content-between text-center">
             <li v-for="(el, id) in mainArray" :key="`image-${id}`">
                 <div class="card">
@@ -24,8 +24,12 @@ export default {
 @import '@/Style/utilities.scss';
 @import '@/Style/variables.scss';
 
-li{
-    width: calc(100% / 4);
-    padding: 10px;
+.section-three{
+    margin-bottom: 100px;
+    li{
+        width: calc(100% / 4);
+        padding: 10px;
+    }
 }
+
 </style>
