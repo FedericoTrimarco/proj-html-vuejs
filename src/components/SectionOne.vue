@@ -50,6 +50,7 @@ export default {
 .section-one-center{
     height: 1000px;
     background-image: url('../assets/banner-5-2x-scaled.jpg');
+    background-position: center;
     background-size: cover;
     span{
         letter-spacing: 3px;
