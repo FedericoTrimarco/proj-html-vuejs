@@ -11,7 +11,7 @@
         <!-- CENTER -->
         <div class="section-one-center border d-flex align-items-center">
             <div class="container border text-white">
-                <span>FIND THE BEST ANIMAL SUPPLIES</span>
+                <span class="fw-bold">FIND THE BEST ANIMAL SUPPLIES</span>
                 <h1 class="my-4">We knows animals are a part of your family, let us help take care of them.</h1>
                 <button class="btn pointer">Learn more about us</button>
             </div>
