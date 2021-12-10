@@ -1,16 +1,17 @@
 <template>
     <div class="section-two text-center border">
-        <h1 class="mb-3">{{ title }}</h1>
-        <p class="fs-1">{{ description }}</p>
+        <Title title="Browse by category"
+        description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores laudantium, reprehenderit nam ad ipsam iste perferendis aut dolorum adipisci delectus veniam nulla."/>
     </div>
 </template>
 
 <script>
+import Title from '@/components/Title.vue'
+
 export default {
     name: 'SectionTwo',
-    props:{
-        title: String,
-        description: String,
+    components:{
+        Title,
     }
 }
 </script>
@@ -18,13 +19,9 @@ export default {
 <style scoped lang="scss">
 @import '@/Style/utilities.scss';
 @import '@/Style/variables.scss';
-.section-two{
-    width: 30%;
-    margin: 100px auto;
-    h1{
-        font-family: 'Domine', serif;
-        color: $heavyMetal;
+    .section-two{
+        width: 30%;
+        margin: 100px auto;
     }
-}
 
 </style>
