@@ -57,7 +57,7 @@ export default {
     }
     h1{
         font-size: 50px;
-        width: 27%;
+        width: 40%;
         font-family: 'Domine', serif;
         text-shadow: 2px 2px 10px black;
     }
