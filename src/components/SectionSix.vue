@@ -1,5 +1,5 @@
 <template>
-    <div class="section-six container border">
+    <div class="section-six container border mb-6">
         <!-- info -->
         <div class="section-six-top border d-flex justify-content-between align-items-end mb-5">
             <div class="section-six-top-info">
@@ -10,7 +10,7 @@
         </div>
         <!-- products -->
         <div class="section-six-bottom border">
-            <!-- <CardProduct /> -->
+            <!-- list product -->
             <ul class="list-none d-flex border justify-content-between text-center">
                 <li v-for="(el, id) in mainArray" :key="`product-${id}`">
                     <CardProduct
