@@ -43,7 +43,7 @@ export default {
     .container{
         padding: 20px 100px;
         p{
-            color: $westar; 
+            color: $westar;
         }
     }
 }
