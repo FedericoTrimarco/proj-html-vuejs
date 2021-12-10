@@ -1,6 +1,6 @@
 <template>
-    <div class="section-five container">
-        <SectionAnimalBg 
+    <div class="section-five container mb-6">
+        <SectionAnimalBg
             srcImg="banner-3-2x-scaled.jpg"
             spanText="FIND THE BEST ANIMAL SUPPLIES"
             h1Text="New arrivals weekly"
