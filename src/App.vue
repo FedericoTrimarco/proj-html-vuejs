@@ -4,15 +4,13 @@
 
     <main>
       <SectionOne />
-      <SectionTwo 
-        title="Browse by category"
-        description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores laudantium, reprehenderit nam ad ipsam iste perferendis aut dolorum adipisci delectus veniam nulla."
-      />
+      <SectionTwo />
       <SectionThree :mainArray="articles1"/>
       <SectionFour :arrayElements="foods"/>
       <SectionFive />
       <SectionSix :mainArray="articles2"/>
       <SectionSeven :mainArray="users"/>
+      <SectionEight />
     </main>
   </div>
 </template>
@@ -26,6 +24,7 @@ import SectionFour from '@/components/SectionFour.vue'
 import SectionFive from '@/components/SectionFive.vue'
 import SectionSix from '@/components/SectionSix.vue'
 import SectionSeven from '@/components/SectionSeven.vue'
+import SectionEight from '@/components/SectionEight.vue'
 
 export default {
   name: 'App',
@@ -38,6 +37,7 @@ export default {
     SectionFive,
     SectionSix,
     SectionSeven,
+    SectionEight,
   },
   data() {
     return{
