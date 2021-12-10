@@ -3,21 +3,23 @@
     <div class="section-three container border">
         <ul class="list-none d-flex border justify-content-between text-center">
             <li v-for="(el, id) in mainArray" :key="`image-${id}`">
-                <div class="card border">
-                    <img :src="require(`../assets${el.src}`)" class="w-100">
-                    <h2 class="mt-3">{{el.title}}</h2>
-                </div>
+                <CardProduct :src="el.src" :title="el.title"/>
             </li>
         </ul>
     </div>
 </template>
 
 <script>
+import CardProduct from '@/components/CardProduct.vue'
 export default {
     name: 'SectionThree',
+    components:{
+        CardProduct,
+    },
     props: {
         mainArray: Array,
-    }
+    },
+    
 }
 </script>
 
