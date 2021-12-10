@@ -1,6 +1,6 @@
 <template>
     <!-- FOODS -->
-    <div class="section-four container d-flex border">
+    <div class="section-four container d-flex border mb-6">
         <div v-for="(el, id) in arrayElements" :key="`food-${id}`" class="border card text-center" >
             <div class="food py-6">
                 <h1 class="text-white">{{ el.title }}</h1>
