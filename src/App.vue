@@ -4,7 +4,10 @@
 
     <main>
       <SectionOne />
-      <SectionTwo />
+      <SectionTwo 
+        title="Browse by category"
+        description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores laudantium, reprehenderit nam ad ipsam iste perferendis aut dolorum adipisci delectus veniam nulla."
+      />
       <SectionThree :mainArray="images"/>
       <SectionFour :arrayElements="foods"/>
     </main>

@@ -1,13 +1,17 @@
 <template>
     <div class="section-two text-center border">
-        <h1 class="mb-3">Browse by category</h1>
-        <p class="fs-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores laudantium, reprehenderit nam ad ipsam iste perferendis aut dolorum adipisci delectus veniam nulla.</p>
+        <h1 class="mb-3">{{ title }}</h1>
+        <p class="fs-1">{{ description }}</p>
     </div>
 </template>
 
 <script>
 export default {
-    name: 'SectionTwo'
+    name: 'SectionTwo',
+    props:{
+        title: String,
+        description: String,
+    }
 }
 </script>
 
