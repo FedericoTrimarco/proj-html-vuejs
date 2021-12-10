@@ -4,7 +4,8 @@
             srcImg="banner-3-2x-scaled.jpg"
             spanText="FIND THE BEST ANIMAL SUPPLIES"
             h1Text="New arrivals weekly"
-            btnText="Learn more about us"/>
+            btnText="Learn more about us"
+        />
     </div>
 </template>
 
