@@ -1,5 +1,5 @@
 <template>
-    <div class="section-seven border text-white mb-6">
+    <div class="section-seven border text-white">
         <div class="container border text-center">
             <h1>Users testimonials</h1>
             <div class="users border mt-6">

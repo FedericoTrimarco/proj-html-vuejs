@@ -17,7 +17,7 @@
             </div>
         </div>
         <!-- BOTTOM -->
-        <div class="section-one-bottom border">
+        <div class="section-one-bottom border pt-2">
             <div class="container d-flex align-items-center border justify-content-center">
                 <img src="../assets/food-transparent-5-200x112.png" alt="">
                 <p class="text-white mx-2">Get $25 OFF your first purchase of our homemade pet food!</p>
@@ -65,7 +65,7 @@ export default {
 .section-one-bottom{
     background-image: url('../assets/bg-transparent-3.png');
     background-color: $heavyMetal;
-    font-size: 30px;
+    font-size: 20px;
     a{
         color: $naturalGrey;
     }
