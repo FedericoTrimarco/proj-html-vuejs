@@ -110,17 +110,17 @@ export default {
       users: [
         {
           userSrc: '/avatar-3.jpg',
-          info: 'Lisa Smith   consectetur adipisicing elit. Labore maxime modi porro totam reiciendis dolore aliquam itaque quos inventore illum?',
+          info: 'Lisa Smith consectetur adipisicing elit. Labore maxime modi porro totam reiciendis dolore aliquam itaque quos inventore illum?',
           name: 'Lisa Smith, ThemeFusion'
         },
         {
           userSrc: '/avatar-1.jpg',
-          info: 'Melissa Green  consectetur adipisicing elit. Labore maxime modi porro totam reiciendis dolore aliquam itaque quos inventore illum?',
+          info: 'Melissa Green consectetur adipisicing elit. Labore maxime modi porro totam reiciendis dolore aliquam itaque quos inventore illum?',
           name: 'Melissa Green, ThemeFusion'
         },
         {
           userSrc: '/avatar-4.jpg',
-          info: 'Sam Lewis  consectetur adipisicing elit. Labore maxime modi porro totam reiciendis dolore aliquam itaque quos inventore illum?',
+          info: 'Sam Lewis consectetur adipisicing elit. Labore maxime modi porro totam reiciendis dolore aliquam itaque quos inventore illum?',
           name: 'Sam Lewis, ThemeFusion'
         },
       ]
