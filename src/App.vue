@@ -10,6 +10,7 @@
       />
       <SectionThree :mainArray="images"/>
       <SectionFour :arrayElements="foods"/>
+      <SectionFive />
     </main>
   </div>
 </template>
@@ -20,6 +21,7 @@ import SectionOne from '@/components/SectionOne.vue'
 import SectionTwo from '@/components/SectionTwo.vue'
 import SectionThree from '@/components/SectionThree.vue'
 import SectionFour from '@/components/SectionFour.vue'
+import SectionFive from '@/components/SectionFive.vue'
 
 export default {
   name: 'App',
@@ -29,6 +31,7 @@ export default {
     SectionTwo,
     SectionThree,
     SectionFour,
+    SectionFive,
   },
   data() {
     return{
