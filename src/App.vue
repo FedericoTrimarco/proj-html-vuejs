@@ -12,6 +12,7 @@
       <SectionFour :arrayElements="foods"/>
       <SectionFive />
       <SectionSix :mainArray="articles2"/>
+      <SectionSeven :mainArray="users"/>
     </main>
   </div>
 </template>
@@ -24,6 +25,7 @@ import SectionThree from '@/components/SectionThree.vue'
 import SectionFour from '@/components/SectionFour.vue'
 import SectionFive from '@/components/SectionFive.vue'
 import SectionSix from '@/components/SectionSix.vue'
+import SectionSeven from '@/components/SectionSeven.vue'
 
 export default {
   name: 'App',
@@ -35,6 +37,7 @@ export default {
     SectionFour,
     SectionFive,
     SectionSix,
+    SectionSeven,
   },
   data() {
     return{
@@ -102,6 +105,24 @@ export default {
           description: 'Freeze-Dried do food',
           btnText: 'Shop frozen food'
         }
+      ],
+
+      users: [
+        {
+          userSrc: '/avatar-3.jpg',
+          info: 'Lisa Smith   consectetur adipisicing elit. Labore maxime modi porro totam reiciendis dolore aliquam itaque quos inventore illum?',
+          name: 'Lisa Smith, ThemeFusion'
+        },
+        {
+          userSrc: '/avatar-1.jpg',
+          info: 'Melissa Green  consectetur adipisicing elit. Labore maxime modi porro totam reiciendis dolore aliquam itaque quos inventore illum?',
+          name: 'Melissa Green, ThemeFusion'
+        },
+        {
+          userSrc: '/avatar-4.jpg',
+          info: 'Sam Lewis  consectetur adipisicing elit. Labore maxime modi porro totam reiciendis dolore aliquam itaque quos inventore illum?',
+          name: 'Sam Lewis, ThemeFusion'
+        },
       ]
     }
   }
