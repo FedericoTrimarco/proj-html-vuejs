@@ -59,6 +59,9 @@
 .py-6{
     padding: 100px 0;
 }
+.pb-4{
+    padding-bottom: 60px;
+}
 .pt-5{
     padding-top: 80px;
 }
@@ -87,6 +90,12 @@
 }
 .align-items-center{
     align-items: center;
+}
+.align-items-end{
+    align-items: end;
+}
+.align-self-end{
+    align-self: end;
 }
 .align-self-center{
     align-self: center;
@@ -155,7 +164,7 @@
 .btn{
     border: none;
     border-radius: 30px;
-    padding: 15px 30px;
+    padding: 15px 40px;
     font-size: 17px;
 }
 .btn-green{
