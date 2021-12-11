@@ -16,10 +16,12 @@
       <SectionEleven :mainArray="infoIcons"/>
       <SectionTwelve :mainArray="articles3"/>
     </main>
+    <Footer />
   </div>
 </template>
 
 <script>
+// COMPONENTS
 import Header from '@/components/Header.vue'
 import SectionOne from '@/components/SectionOne.vue'
 import SectionTwo from '@/components/SectionTwo.vue'
@@ -33,7 +35,8 @@ import SectionNine from '@/components/SectionNine.vue'
 import SectionTen from '@/components/SectionTen.vue'
 import SectionEleven from '@/components/SectionEleven.vue'
 import SectionTwelve from '@/components/SectionTwelve.vue'
-
+import Footer from '@/components/Footer.vue'
+// ARRAY
 import {navLink} from '@/Data/allArrays'
 import {articles1} from '@/Data/allArrays'
 import {articles2} from '@/Data/allArrays'
@@ -59,9 +62,11 @@ export default {
     SectionTen,
     SectionEleven,
     SectionTwelve,
+    Footer,
   },
   data() {
     return{
+      // ARRAY
       navLink,
       articles1,
       articles2,
