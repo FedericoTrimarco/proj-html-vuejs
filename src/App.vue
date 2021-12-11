@@ -13,6 +13,7 @@
       <SectionEight />
       <SectionNine :mainArray="blogs"/>
       <SectionTen />
+      <SectionEleven :mainArray="infoIcons"/>
     </main>
   </div>
 </template>
@@ -29,6 +30,7 @@ import SectionSeven from '@/components/SectionSeven.vue'
 import SectionEight from '@/components/SectionEight.vue'
 import SectionNine from '@/components/SectionNine.vue'
 import SectionTen from '@/components/SectionTen.vue'
+import SectionEleven from '@/components/SectionEleven.vue'
 
 export default {
   name: 'App',
@@ -44,6 +46,7 @@ export default {
     SectionEight,
     SectionNine,
     SectionTen,
+    SectionEleven,
   },
   data() {
     return{
@@ -151,6 +154,25 @@ export default {
           userSrc: '/avatar-4.jpg',
           info: 'Sam Lewis consectetur adipisicing elit. Labore maxime modi porro totam reiciendis dolore aliquam itaque quos inventore illum?',
           name: 'Sam Lewis, ThemeFusion'
+        },
+      ],
+
+      infoIcons: [
+        {
+          iconClass: 'fas fa-truck',
+          iconText: 'Free worldwide deliveries'
+        },
+        {
+          iconClass: 'far fa-map',
+          iconText: 'Find stores near you'
+        },
+        {
+          iconClass: 'fas fa-dollar-sign',
+          iconText: 'Best prices guarranteed'
+        },
+        {
+          iconClass: 'far fa-credit-card',
+          iconText: 'All credit card accepted'
         },
       ]
     }
