@@ -5,8 +5,12 @@
         <div class="card-info">
             <h2 class="my-1">{{title}}</h2>
             <span v-if="originalPrice != null" class="original-price">{{ originalPrice }}</span>
-            <span v-if="price != null" class="current-price">{{ price }}</span>
-            <span v-else-if="date != null" class="date  ">{{ date }}</span>
+            <span v-if="price != null" class="current-price">
+                {{ price }}
+                <span v-if="secondPrice != null" class="dash"> - </span>
+                {{secondPrice}}
+            </span>
+            <span v-else-if="date != null" class="date">{{ date }}</span>
         </div>
     </div>
 </template>
@@ -18,9 +22,10 @@ export default {
         src: String,
         title: String,
         price: String,
+        secondPrice: String,
         originalPrice: String,
         date: String,
-    }
+    },
 }
 </script>
 
@@ -46,6 +51,9 @@ export default {
         .date{
             color: #000;
             font-size: initial;
+        }
+        .dash{
+            color: #000;
         }
     }
 

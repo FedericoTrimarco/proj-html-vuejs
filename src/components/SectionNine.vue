@@ -4,7 +4,7 @@
         <Title title="Get the best tip & tricks" description="Recent articles"/>
         <!-- list-articles -->
         <div class="tricks mt-3">
-            <ul class="list-none d-flex border justify-content-between text-center">
+            <ul class="list-none d-flex border text-center">
                 <li v-for="(el, id) in mainArray" :key="`product-${id}`">
                     <CardProduct
                         :src="el.src"
