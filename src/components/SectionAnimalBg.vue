@@ -1,5 +1,5 @@
 <template>
-    <div class="section-animal border mb-6 p-relative">
+    <div class="section-animal border mb-6 p-relative w-100">
         <div class="img h-100">
             <img :src="require(`../assets/${srcImg}`)" alt="" class="w-100 h-100">
         </div>
@@ -27,9 +27,9 @@ export default {
 @import '@/Style/utilities.scss';
 @import '@/Style/variables.scss';
 .section-animal{
-    height: 800px;
+    height: 600px;
     img{
-        filter: brightness(60%);
+        filter: brightness(70%);
         object-fit: cover;
     }
     .info{
@@ -39,6 +39,7 @@ export default {
         }
         h1{
             font-size: 50px;
+            font-weight: normal;
             font-family: 'Domine', serif;
             text-shadow: 2px 2px 10px black;
         }
