@@ -12,6 +12,7 @@
       <SectionSeven :mainArray="users"/>
       <SectionEight />
       <SectionNine :mainArray="blogs"/>
+      <SectionTen />
     </main>
   </div>
 </template>
@@ -27,6 +28,7 @@ import SectionSix from '@/components/SectionSix.vue'
 import SectionSeven from '@/components/SectionSeven.vue'
 import SectionEight from '@/components/SectionEight.vue'
 import SectionNine from '@/components/SectionNine.vue'
+import SectionTen from '@/components/SectionTen.vue'
 
 export default {
   name: 'App',
@@ -41,6 +43,7 @@ export default {
     SectionSeven,
     SectionEight,
     SectionNine,
+    SectionTen,
   },
   data() {
     return{
