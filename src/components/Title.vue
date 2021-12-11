@@ -1,6 +1,6 @@
 <template>
     <div class="title">
-        <h1 class="mb-3">{{ title }}</h1>
+        <h1 class="mb-2">{{ title }}</h1>
         <p class="fs-1">{{ description }}</p>
     </div>
 </template>

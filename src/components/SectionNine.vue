@@ -1,8 +1,7 @@
 <template>
     <div class="container border text-center mb-6">
         <!-- title -->
-        <Title title="Get the best tip & tricks"
-        description="Recent articles"/>
+        <Title title="Get the best tip & tricks" description="Recent articles"/>
         <!-- list-articles -->
         <div class="tricks mt-3">
             <ul class="list-none d-flex border justify-content-between text-center">
