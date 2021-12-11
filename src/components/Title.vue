@@ -21,8 +21,11 @@ export default {
     
     h1{
         font-family: 'Domine', serif;
-        color: $heavyMetal;
+        color: $greenKelp;
         font-weight: normal;
+    }
+    p{
+        color: $bayLeaf;
     }
 
 

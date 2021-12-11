@@ -59,7 +59,10 @@ export default {
     .section-six-bottom{
         li{
             width: calc(100% / 4);
-            padding: 0 20px;
+            margin-right: 50px;
+            &:last-child{
+                margin-right: 0;
+            }
         }
     }
 }

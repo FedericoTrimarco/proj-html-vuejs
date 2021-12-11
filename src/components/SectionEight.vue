@@ -27,7 +27,7 @@ export default {
         background-image: url('../assets/banner-7-2x-scaled.jpg');
         background-size: cover;
         bottom: 100px;
-        padding: 150px;
+        padding: 200px 150px;
         .newsletter-info{
             width: 50%;
             h1{

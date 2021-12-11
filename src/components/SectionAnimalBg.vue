@@ -1,7 +1,7 @@
 <template>
     <div class="section-animal border mb-6 p-relative">
-        <div class="img">
-            <img :src="require(`../assets/${srcImg}`)" alt="" class="w-100">
+        <div class="img h-100">
+            <img :src="require(`../assets/${srcImg}`)" alt="" class="w-100 h-100">
         </div>
         <div class="info text-white border p-absolute centering">
             <span class="fw-bold">{{ spanText }}</span>
@@ -27,9 +27,10 @@ export default {
 @import '@/Style/utilities.scss';
 @import '@/Style/variables.scss';
 .section-animal{
-    height: 750px;
+    height: 800px;
     img{
         filter: brightness(60%);
+        object-fit: cover;
     }
     .info{
         text-align: center;
