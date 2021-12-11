@@ -1,5 +1,5 @@
 <template>
-    <div class="section-animal border mb-6 p-relative w-100">
+    <div class="section-animal border p-relative w-100">
         <div class="img h-100">
             <img :src="require(`../assets/${srcImg}`)" alt="" class="w-100 h-100">
         </div>
