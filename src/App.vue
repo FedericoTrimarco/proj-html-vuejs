@@ -11,6 +11,7 @@
       <SectionSix :mainArray="articles2"/>
       <SectionSeven :mainArray="users"/>
       <SectionEight />
+      <SectionNine :mainArray="blogs"/>
     </main>
   </div>
 </template>
@@ -25,6 +26,7 @@ import SectionFive from '@/components/SectionFive.vue'
 import SectionSix from '@/components/SectionSix.vue'
 import SectionSeven from '@/components/SectionSeven.vue'
 import SectionEight from '@/components/SectionEight.vue'
+import SectionNine from '@/components/SectionNine.vue'
 
 export default {
   name: 'App',
@@ -38,6 +40,7 @@ export default {
     SectionSix,
     SectionSeven,
     SectionEight,
+    SectionNine,
   },
   data() {
     return{
@@ -83,6 +86,29 @@ export default {
           src: '/product-11.jpg',
           title: 'Colorful cat leash',
           price: '$12.00',
+        }
+      ],
+
+      blogs: [
+        {
+          src: '/blog-1.jpg',
+          title: "How to 'loose leash walk' your dog",
+          date: 'April 21st, 2020',
+        },
+        {
+          src: '/blog-2.jpg',
+          title: 'Stop cats from scratching furniture',
+          date: 'April 19st, 2020',
+        },
+        {
+          src: '/blog-3.jpg',
+          title: 'Where to buy the best pet food',
+          date: 'April 18st, 2020',
+        },
+        {
+          src: '/blog-4.jpg',
+          title: 'Proper care for your pet toys',
+          date: 'April 17st, 2020',
         }
       ],
 
