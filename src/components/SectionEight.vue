@@ -1,5 +1,5 @@
 <template>
-    <div class="container border p-relative">
+    <div class="section-eight container border p-relative">
         <div class="newsletter-info border">
             <h1>Join our newsletters</h1>
             <p class="my-3">Volutpat vel turpis nulla lorem sed semper, Aliquam sagittis sem libero viverra vehicula nullam ut nisl.</p>

@@ -1,5 +1,5 @@
 <template>
-    <div class="container border text-center mb-6">
+    <div class="section-nine container border text-center mb-6">
         <!-- title -->
         <Title title="Get the best tip & tricks" description="Recent articles"/>
         <!-- list-articles -->

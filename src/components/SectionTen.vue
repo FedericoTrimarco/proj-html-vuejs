@@ -1,5 +1,5 @@
 <template>
-    <div class="popular-accessories border d-flex">
+    <div class="section-ten popular-accessories border d-flex">
         <SectionAnimalBg
             srcImg="banner-8-2x.jpg"
             spanText="FIND THE BEST ANIMAL SUPPLIES"
