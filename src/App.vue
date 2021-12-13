@@ -16,7 +16,8 @@
       <SectionEleven :mainArray="infoIcons"/>
       <SectionTwelve :mainArray="articles3"/>
     </main>
-    <Footer />
+    
+    <Footer :linkFooterBottom1="navLink" :linkFooterBottom2="socialLink" :linkFooterTop="footerLinks"/>
   </div>
 </template>
 
@@ -45,6 +46,8 @@ import {blogs} from '@/Data/allArrays'
 import {foods} from '@/Data/allArrays'
 import {users} from '@/Data/allArrays'
 import {infoIcons} from '@/Data/allArrays'
+import {socialLink} from '@/Data/allArrays'
+import {footerLinks} from '@/Data/allArrays'
 
 export default {
   name: 'App',
@@ -75,6 +78,8 @@ export default {
       foods,
       users,
       infoIcons,
+      socialLink,
+      footerLinks,
     }
   } 
 }
