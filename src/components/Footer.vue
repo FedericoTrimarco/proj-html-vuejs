@@ -23,7 +23,7 @@
                     <div class="subscribe-content radius-10px">
                         <h2>Subscribe to your newsletter</h2>
                         <input type="email" placeholder="Insert your email...*" class="my-2 fs-min radius-30px border-none">
-                        <button class="btn btn-green w-100">Subscribe</button>
+                        <button class="btn btn-green w-100 pointer">Subscribe</button>
                     </div>
                 </div>
             </div>
