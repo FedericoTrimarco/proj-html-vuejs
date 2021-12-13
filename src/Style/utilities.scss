@@ -1,9 +1,9 @@
 // CONTAINER
 // BORDER
-.border{
+/* .border{
     border: 1px solid red
 }
-
+ */
 /* .border-3{
     border: 1px solid orange
 } */
@@ -18,7 +18,7 @@
 }
 // CONTAINER
 .container{
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
 }
 // MARGINS
@@ -241,4 +241,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+.p-fixed{
+    position: fixed;
 }
