@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <FixedWrapper />
     <Header :links="navLink"/>
 
     <main>
@@ -16,7 +17,7 @@
       <SectionEleven :mainArray="infoIcons"/>
       <SectionTwelve :mainArray="articles3"/>
     </main>
-    
+
     <Footer :linkFooterBottom1="navLink" :linkFooterBottom2="socialLink" :linkFooterTop="footerLinks"/>
   </div>
 </template>
@@ -37,6 +38,7 @@ import SectionTen from '@/components/SectionTen.vue'
 import SectionEleven from '@/components/SectionEleven.vue'
 import SectionTwelve from '@/components/SectionTwelve.vue'
 import Footer from '@/components/Footer.vue'
+import FixedWrapper from '@/components/FixedWrapper.vue'
 // ARRAY
 import {navLink} from '@/Data/allArrays'
 import {articles1} from '@/Data/allArrays'
@@ -66,6 +68,7 @@ export default {
     SectionEleven,
     SectionTwelve,
     Footer,
+    FixedWrapper,
   },
   data() {
     return{
