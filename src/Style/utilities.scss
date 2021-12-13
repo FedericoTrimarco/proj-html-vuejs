@@ -1,8 +1,9 @@
 // CONTAINER
 // BORDER
-/* .border{
+.border{
     border: 1px solid red
-} */
+}
+
 /* .border-3{
     border: 1px solid orange
 } */
@@ -17,7 +18,7 @@
 }
 // CONTAINER
 .container{
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
 }
 // MARGINS
@@ -181,6 +182,9 @@
 .fw-bold{
     font-weight: bold;
 }
+.fw-normal{
+    font-weight: normal;
+}
 .text-white{
     color: white;
 }
@@ -221,6 +225,10 @@
 .btn-green{
     background-color: #3d6f42;
     color: #fff;
+    transition: background-color .3s;
+    &:hover{
+        background-color: #2a4d2e;
+    }
 }
 // POSITION
 .p-relative{
