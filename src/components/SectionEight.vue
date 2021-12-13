@@ -6,7 +6,7 @@
             
             <div class="send-email d-flex">
                 <input type="email" placeholder="Insert your email...*" class="flex-grow-1 me-2">
-                <button class="btn btn-green">Subscribe</button>
+                <button class="btn btn-green pointer">Subscribe</button>
             </div>
         </div>
     </div>
