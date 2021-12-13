@@ -6,7 +6,7 @@
                 <span class="fw-bold ">All time best sellers</span>
                 <p>Items everyone loves</p>
             </div>
-            <button class="btn btn-green">View all products</button>
+            <button class="btn btn-green pointer">View all products</button>
         </div>
         <!-- products -->
         <div class="section-six-bottom border">
@@ -18,6 +18,8 @@
                         :title="el.title"
                         :originalPrice="el.originalPrice"
                         :price="el.price"
+                        :hover="true"
+                        :check="true"
                     />
                 </li>
             </ul>

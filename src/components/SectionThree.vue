@@ -3,7 +3,11 @@
     <div class="section-three container border">
         <ul class="list-none d-flex border justify-content-between text-center">
             <li v-for="(el, id) in mainArray" :key="`image-${id}`">
-                <CardProduct :src="el.src" :title="el.title"/>
+                <CardProduct
+                    :src="el.src"
+                    :title="el.title"
+                    :hover="false"
+                />
             </li>
         </ul>
     </div>

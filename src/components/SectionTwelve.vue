@@ -13,6 +13,8 @@
                             :originalPrice="el.originalPrice"
                             :price="el.price"
                             :secondPrice="el.secondPrice"
+                            :hover="true"
+                            :check="true"
                         />
                     </li>
                 </ul>

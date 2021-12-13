@@ -10,6 +10,7 @@
                         :src="el.src"
                         :title="el.title"
                         :date="el.date"
+                        :hover="true"
                     />
                 </li>
             </ul>
