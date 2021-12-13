@@ -26,6 +26,7 @@ export default {
 @import '@/Style/utilities.scss';
 @import '@/Style/variables.scss';
     .fixed-items{
+        z-index: 1;
         right: 20px;
         top: 180px;
         .lello{
