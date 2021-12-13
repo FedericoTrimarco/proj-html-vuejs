@@ -1,10 +1,10 @@
 <template>
     <div class="fixed-items p-fixed">
-        <div class="lello radius-10px mb-1">
+        <div class="lello radius-10px mb-1 d-flex flex-column text-center justify-content-center">
             <i class="fab fa-vuejs"></i>
             <span>Demos</span>
         </div>
-        <div class="lello radius-10px">
+        <div class="lello radius-10px d-flex flex-column text-center justify-content-center">
             <div class="price border p-relative">
                 <div class="price-number  fw-bold">
                     <span class="p-absolute dollar fs-1">$</span>
@@ -33,10 +33,6 @@ export default {
             padding: 5px;
             width: 80px;
             height: 80px;
-            text-align: center;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
             box-shadow: 0px 0px 5px 0px;
 
             i{
