@@ -28,6 +28,9 @@
                 <li v-for="(link, id) in links" :key="id" class="me-3">
                     <a @click.prevent href="/" class="text-decoration-none fw-bold">{{ link }} <i class="fas fa-angle-down ms-1"></i></a>
                 </li>
+                <li class="me-3">
+                    <a @click.prevent href="/" class="text-decoration-none fw-bold">Shop by brand <i class="fas fa-angle-down ms-1"></i></a>
+                </li>
             </ul>
         </nav>
     </header>
