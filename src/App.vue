@@ -18,7 +18,11 @@
       <SectionTwelve :mainArray="articles3"/>
     </main>
 
-    <Footer :linkFooterBottom1="navLink" :linkFooterBottom2="socialLink" :linkFooterTop="footerLinks"/>
+    <Footer 
+      :linkFooterBottom1="navLink"
+      :linkFooterBottom2="socialLink"
+      :linkFooterTop="footerLinks"
+    />
   </div>
 </template>
 
