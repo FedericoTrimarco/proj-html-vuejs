@@ -8,7 +8,7 @@
                     <p>VIEW CART</p>
                 </div>
                 <div v-else class="text-center text-white">
-                    <h1 class="fw-normal border">{{title}}</h1>
+                    <h1 class="fw-normal border px-20px">{{title}}</h1>
                     <span>Tips & Tricks</span>
                 </div>
             </div>

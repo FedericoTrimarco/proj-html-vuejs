@@ -22,7 +22,7 @@
                 <div class="subscribe border d-flex flex-column">
                     <div class="subscribe-content radius-10px">
                         <h2>Subscribe to your newsletter</h2>
-                        <input type="email" placeholder="Insert your email...*" class="my-2 fs-min radius-30px border-none">
+                        <input type="email" placeholder="Insert your email...*" class=" w-100 my-2 fs-min radius-30px border-none">
                         <button class="btn btn-green w-100 pointer">Subscribe</button>
                     </div>
                 </div>
@@ -68,7 +68,7 @@ export default {
     .footer-top{
         background-color: $greenKelp;
         .links, .subscribe{
-            padding: 70px;
+            padding: 50px;
             width: calc(100% / 4);
         }
         .links:first-child{
